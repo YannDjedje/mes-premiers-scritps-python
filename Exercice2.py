@@ -27,3 +27,10 @@ egalite = x==y
 difference = x!=y
 print("l'egalité est :", egalite)
 print("la difference est :", difference)
+print("---------------------------------------------------------------------------------")
+print("Exercice 5 : Demande un prix HT ( hors Taxes) et affiche le prix TTC avec une TVA de 18%")
+prixHT= input("Enrez le prixHT :")
+prixHT=int(prixHT)
+TVA = 18
+prixTTC = prixHT + TVA
+print("PriXTTC = ", prixTTC)
