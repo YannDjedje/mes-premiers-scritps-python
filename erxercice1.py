@@ -24,7 +24,8 @@ print("   ")
 print(" Exercice 4: Crée une variable prix et une autre quantité, affiche le total")
 prix=2000
 quantite=23
-print("Le prix est ", prix, "fcfa et La quantité est de" , quantite, ".")
+Total = prix * quantite
+print("Le Totale est ", Total,".")
 print("   ")
 print("Exercice 5 :Affiche le type de trois variables differentes(un int, un float, un str) avec type()")
 numb=14
